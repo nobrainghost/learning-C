@@ -5,4 +5,6 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(untitled main.c
         product.c
-        patterns.c)
+        patterns.c
+        max_min.c
+        mathtable.c)

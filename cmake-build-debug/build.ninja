@@ -67,6 +67,18 @@ build CMakeFiles/untitled.dir/patterns.c.o: C_COMPILER__untitled_unscanned_Debug
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
 
+build CMakeFiles/untitled.dir/max_min.c.o: C_COMPILER__untitled_unscanned_Debug /home/benar/CLionProjects/untitled/max_min.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/max_min.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
+build CMakeFiles/untitled.dir/mathtable.c.o: C_COMPILER__untitled_unscanned_Debug /home/benar/CLionProjects/untitled/mathtable.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/mathtable.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -75,7 +87,7 @@ build CMakeFiles/untitled.dir/patterns.c.o: C_COMPILER__untitled_unscanned_Debug
 #############################################
 # Link the executable untitled
 
-build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.o CMakeFiles/untitled.dir/product.c.o CMakeFiles/untitled.dir/patterns.c.o
+build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.o CMakeFiles/untitled.dir/product.c.o CMakeFiles/untitled.dir/patterns.c.o CMakeFiles/untitled.dir/max_min.c.o CMakeFiles/untitled.dir/mathtable.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :
