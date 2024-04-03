@@ -97,6 +97,12 @@ build CMakeFiles/untitled.dir/better_table.c.o: C_COMPILER__untitled_unscanned_D
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
 
+build CMakeFiles/untitled.dir/interest.c.o: C_COMPILER__untitled_unscanned_Debug /home/benar/CLionProjects/untitled/interest.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles/untitled.dir/interest.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -105,8 +111,9 @@ build CMakeFiles/untitled.dir/better_table.c.o: C_COMPILER__untitled_unscanned_D
 #############################################
 # Link the executable untitled
 
-build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.o CMakeFiles/untitled.dir/product.c.o CMakeFiles/untitled.dir/patterns.c.o CMakeFiles/untitled.dir/max_min.c.o CMakeFiles/untitled.dir/mathtable.c.o CMakeFiles/untitled.dir/milespergallon.c.o CMakeFiles/untitled.dir/credit_limit.c.o CMakeFiles/untitled.dir/better_table.c.o
+build untitled: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.o CMakeFiles/untitled.dir/product.c.o CMakeFiles/untitled.dir/patterns.c.o CMakeFiles/untitled.dir/max_min.c.o CMakeFiles/untitled.dir/mathtable.c.o CMakeFiles/untitled.dir/milespergallon.c.o CMakeFiles/untitled.dir/credit_limit.c.o CMakeFiles/untitled.dir/better_table.c.o CMakeFiles/untitled.dir/interest.c.o
   FLAGS = -g
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :
   PRE_LINK = :
