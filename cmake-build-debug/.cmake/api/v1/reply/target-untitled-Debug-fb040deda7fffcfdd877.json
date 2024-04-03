@@ -54,7 +54,9 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7
 			]
 		}
 	],
@@ -92,7 +94,9 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7
 			]
 		}
 	],
@@ -132,6 +136,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "milespergallon.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "credit_limit.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "better_table.c",
 			"sourceGroupIndex" : 0
 		}
 	],

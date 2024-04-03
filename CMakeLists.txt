@@ -8,4 +8,6 @@ add_executable(untitled main.c
         patterns.c
         max_min.c
         mathtable.c
-        milespergallon.c)
+        milespergallon.c
+        credit_limit.c
+        better_table.c)
