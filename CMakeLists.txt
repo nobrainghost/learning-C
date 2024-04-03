@@ -7,4 +7,5 @@ add_executable(untitled main.c
         product.c
         patterns.c
         max_min.c
-        mathtable.c)
+        mathtable.c
+        milespergallon.c)
