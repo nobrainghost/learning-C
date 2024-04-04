@@ -11,5 +11,6 @@ add_executable(untitled main.c
         milespergallon.c
         credit_limit.c
         better_table.c
-        interest.c)
+        interest.c
+        grade_counter.c)
 target_link_libraries(untitled m)
