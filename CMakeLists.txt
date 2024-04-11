@@ -12,5 +12,9 @@ add_executable(untitled main.c
         credit_limit.c
         better_table.c
         interest.c
-        grade_counter.c)
+        grade_counter.c
+        max_of_three.c
+        random.c
+        frequency.c
+)
 target_link_libraries(untitled m)
