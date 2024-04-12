@@ -6,7 +6,6 @@ set(CMAKE_C_STANDARD 11)
 add_executable(untitled main.c
         product.c
         patterns.c
-        max_min.c
         mathtable.c
         milespergallon.c
         credit_limit.c
@@ -16,5 +15,6 @@ add_executable(untitled main.c
         max_of_three.c
         random.c
         frequency.c
+        craps_dice_game.c
 )
 target_link_libraries(untitled m)
